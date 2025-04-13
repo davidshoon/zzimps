@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZZimps</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+    }
+    header {
+      background: #222;
+      padding: 1em 2em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+    nav a {
+      color: #eee;
+      margin-left: 1em;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #00ffaa;
+    }
+    .hero {
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+    .hero h2 {
+      font-size: 2.5em;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 0.5em 1em;
+    }
+    section {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+    .games {
+      display: flex;
+      gap: 1em;
+      flex-wrap: wrap;
+    }
+    .game {
+      background: #222;
+      flex: 1 1 250px;
+      padding: 1em;
+      border: 1px solid #333;
+    }
+    .game img {
+      width: 100%;
+      height: auto;
+    }
+    .game h3 {
+      margin-top: 0.5em;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 1em;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ZZimps</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#games">Games</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>DLC asset management for video games.</h2>
+</div>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    ZZimps provides a DLC (Downloadable Content) asset management system for video games.
+    We believe in making DLC content ubiquitous across all game engines.
+  </p>
+</section>
+
+<section id="games">
+  <h2>Featured Games Engines</h2>
+  <div class="games">
+    <div class="game">
+      <h3>Irrlicht</h3>
+      <p>A classic C++ 3D engine, open source, written from scratch. Currently supported.</p>
+    </div>
+    <div class="game">
+      <h3>Unreal Engine</h3>
+      <p>The greatest C++ 3D engine available for the public. Currently work in progress.</p>
+    </div>
+    <div class="game">
+      <h3>Godot</h3>
+      <p>A C# based 3D engine, open source. Currently work in progress.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 ZZimps. All rights reserved.
+</footer>
+
+</body>
+</html>
+
